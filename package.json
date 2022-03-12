@@ -1,0 +1,13 @@
+{
+  "name": "go-server",
+  "version": "1.0.0",
+  "description": "Personal Golang server",
+  "author": "Andre Juliantama <juliantamaandre@gmail.com>",
+  "scripts": {
+    "server": "go run server.go",
+    "dev": "nodemon --exec go run server.go --signal SIGTERM"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
